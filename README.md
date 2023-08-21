@@ -14,8 +14,7 @@
 🔸 Create Kubernetes Deployments and Services using Python!
 
 
-![Description Image](templates/Build .png)
-
+![Description Image](https://github.com/pasinduljay/Cloud-Native-Resource-Monitoring-Python-App/blob/main/templates/Build%20.png?raw=true)
 
 ## **Prerequisites** !
 
