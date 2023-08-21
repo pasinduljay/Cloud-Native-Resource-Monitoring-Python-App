@@ -14,7 +14,7 @@
 🔸 Create Kubernetes Deployments and Services using Python!
 
 
-![Description Image](ohmyposh.png)
+![Description Image](templates/Build .png)
 
 
 ## **Prerequisites** !
