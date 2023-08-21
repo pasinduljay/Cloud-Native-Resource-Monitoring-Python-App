@@ -2,16 +2,23 @@
 
 ## Things you Learn 🤯
 
-🔸 Python and How to create Monitoring Application in Python using Flask and psutil
+🔸 Python and How to create Monitoring Applications in Python using Flask and psutil
+
 🔸 How to run a Python App locally.
+
 🔸 Learn Docker and How to containerize a Python application
+
     🔹 Creating Dockerfile
     🔹 Building DockerImage
     🔹 Running Docker Container
     🔹 Docker Commands
+    
 🔸 Create ECR repository using Python Boto3 and pushing Docker Image to ECR
-🔸 Learn Kubernetes and Create EKS cluster and Nodegroups
+
+🔸 Learn Kubernetes and Create EKS cluster and Node groups
+
 🔸 Create Kubernetes Deployments and Services using Python!
+
 
 
 ![Description Image](https://github.com/pasinduljay/Cloud-Native-Resource-Monitoring-Python-App/blob/main/templates/Build%20.png?raw=true)
@@ -138,7 +145,7 @@ docker push <ecr_repo_uri>:<tag>
 
 ### **Step 1: Create an EKS cluster**
 
-Create an EKS cluster and add node group
+Create an EKS cluster and add a node group
 
 ### **Step 2: Create a node group**
 
@@ -216,7 +223,7 @@ kubectl get service -n default (check service)
 kubectl get pods -n default (to check the pods)
 ```
 
-Once your pod is up and running, run the port-forward to expose the service
+Once your pod is up and running, run the port forward to expose the service
 
 ```bash
 kubectl port-forward service/<service_name> 5000:5000
